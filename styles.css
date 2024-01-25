@@ -1,0 +1,52 @@
+.nav-item{
+    margin-left: 15%;
+}
+.nav-item a{
+    font-weight: bolder;
+}
+body{
+    font-family: sans-serif;
+    background-color:azure;
+}               
+#collapsibleNavId{
+    margin-left: 20%;
+}
+.my-navbar-container {
+    margin: 0%;
+}
+.my-navbar-brand img{
+    width: 30vb;
+    height: 15vh;
+}                
+.mytable td{
+    background-color: orange;
+}
+.mytable{
+    border: 1px solid black;
+}
+.moving-image {
+    animation: moveLeftRight 5s linear infinite;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#container1{
+    background-color: skyblue;
+}
+#container2{
+    background-color: rgb(224, 172, 75);
+}
+
+#footer{
+    background:rgb(170, 236, 70);
+    text-align: justify;
+}
